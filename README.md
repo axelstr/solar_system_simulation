@@ -63,10 +63,7 @@ In the `main.py` the following function adds an asteriod to the simulation:
 
 ```python
 def add_asteriod(simulation, m=9.393e20, vz=0):
-    """Sets initial conditions for simulation object .
-    - color
-    - plot_size
-    -
+    """Adds an asteriod to a simulation object this mass m and vertical velocity vz.
     """
     simulation.add_object(
         name = 'Asteriod',
